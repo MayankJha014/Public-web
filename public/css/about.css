@@ -1,0 +1,1092 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+.about__banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    background-image: url('../images/banner-about.jpg');
+    /* background-image: url(banner.image); */
+}
+
+/* .about__banner.visionmission {
+    background-image: url('../images/banner-mission.jpg');
+} */
+
+.about__banner.ourteam {
+    background-image: url('../images/banner-team.jpg');
+}
+
+.about__banner.testimonial {
+    background-image: url('../images/banner-testimonials.jpg');
+}
+
+.about__banner.whatwedo {
+    background-image: url('../images/banner-whatwedo.jpg');
+}
+
+.about__banner.childhood {
+    background-image: url('../images/banner-childhoodcancer.jpg');
+}
+
+.about__banner.diabetes {
+    background-image: url('../images/banner-diabetes.jpg');
+}
+
+.about__banner.environment {
+    background-image: url('../images/banner-environment.jpg');
+}
+
+.about__banner.hunger {
+    background-image: url('../images/banner-hunger.jpg');
+}
+
+.about__banner.vision {
+    background-image: url('../images/banner-vision.jpg');
+}
+
+.about__banner.event {
+    background-image: url('../images/banner-events.jpg');
+}
+
+.about__banner.gallery {
+    background-image: url('../images/event-photo-gallery.png');
+}
+
+.about__banner.comebealion {
+    background-image: url('../images/banner-comebealion.jpg');
+}
+
+.about__banner.opresources {
+    background-image: url('../images/banner-resources.jpg');
+}
+
+.about__banner.globalsponsor {
+    background-image: url('../images/banner-sponsors.jpg');
+}
+
+.about__banner.partner {
+    background-image: url('../images/banner-partner.jpg');
+}
+
+.about__banner__bg {
+    background: linear-gradient(106.77deg, rgba(0, 0, 0, 0.73) -5.28%, rgba(0, 0, 0, 0.32) 101.7%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.about__banner__bg h1 {
+    font-family: 'Caveat';
+    font-size: 53px;
+    font-weight: 700;
+
+    letter-spacing: 0em;
+    color: white;
+
+}
+
+.about__banner__bg p {
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.6);
+
+
+
+}
+
+.about__banner__bg p span {
+    color: #F7D02D;
+}
+
+
+section.heading__about {
+    padding: 1.5rem;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+section.heading__about a {
+    margin-right: 2rem;
+    color: #6F7775;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    transition: 0.3s linear;
+}
+
+section.heading__about a:hover {
+    color: #00529B;
+    border-bottom: 1px solid #00529B;
+}
+
+
+.what-we-do h1 {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #00529B;
+}
+
+.what-we-do p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #283734;
+
+}
+
+.text__about__co {
+    padding: 1rem;
+}
+
+.text__about__co {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #FFF8DB;
+    height: 100%;
+    border-radius: 0 20px 20px 0px;
+}
+
+.text__about__co .co-text {
+    width: 75%;
+}
+
+.about__btn__more {
+    font-family: 'Manrope';
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #00529B;
+    color: var(--blue);
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    text-transform: uppercase;
+
+}
+
+.btn-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-about.right {
+    justify-content: right;
+}
+
+
+.co-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    color: #283734;
+}
+
+
+.color-1 {
+    background: #FFF4F4 !important;
+
+}
+
+.color-2 {
+    background: #F2F8FF !important;
+
+
+}
+
+.color-3 {
+    background: #F6F9EE !important;
+
+}
+
+.color-4 {
+    background: #FFF3FC !important;
+
+}
+
+.button-section-down {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/events-one-shape-1-1.png');
+}
+
+.section-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #e9ecefbd;
+    padding: 4rem 0rem;
+}
+
+.about-partner-with a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #00529B;
+}
+
+
+
+
+/* =================TESTIMONIAL  CSS============== */
+.testimonial-btn {
+    background: #F7D02D;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+
+.testimonial-box {
+    background: #F5F5F5;
+    padding: 6rem;
+    position: relative;
+    margin-top: 3rem;
+    border-radius: 15px;
+
+}
+
+.testimonial-box p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 33px;
+    color: #283734;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-box::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../css/quotes.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-qoute {
+    position: absolute;
+    top: 78px;
+    left: 61px;
+    height: 45px;
+    width: 44px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testimonial-qoute.quote {
+    background-image: url('../css/quotes.png');
+}
+
+.button-testimonial-set {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    font-family: Caveat;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 1rem;
+    position: absolute;
+    left: 77px;
+}
+
+.button-testimonial-set.bg {
+    background-image: url('../images/button-testimonia.png');
+}
+
+
+.testimonial-heading {
+    font-family: 'Manrope';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00529B;
+
+
+}
+
+
+
+
+/*===================== OUR TEAM CSS============== */
+
+.paragraph-our-team {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    color: #283734;
+}
+
+.paragraph-our-team.teampara1 {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.our-box-team-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 44px;
+    text-transform: capitalize;
+    color: #283734;
+}
+
+.our-box-team-by-line {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #E4B908;
+}
+
+.our-team-box {
+    width: 40%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding: 3rem 2rem;
+    position: relative;
+}
+
+.our-team-box-image {
+    position: absolute;
+    top: -62px;
+    width: 120px;
+    height: 120px;
+}
+
+.our-team-box-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.ourteam-mainbox {
+    margin-top: 7rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.our-team-box {
+    width: 50%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding: 5rem 3rem 4rem;
+    position: relative;
+    margin: 0 1rem;
+}
+
+.Box-4 {
+    transform: translateY(-70px);
+}
+
+.he-1 {
+    color: #FF9999;
+
+}
+
+.he-2 {
+    color: #89A7C9;
+}
+
+.he-3 {
+    color: #BECA9D;
+}
+
+@media screen and (min-width:1026px) {
+    header {
+        height: inherit !important;
+
+    }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        flex-wrap: wrap !important;
+    }
+}
+
+
+.membership-form-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    /* or 195% */
+
+
+    color: #283734;
+
+    text-shadow: 0px 1px 0px #ECACDA;
+}
+
+.membership-form-text {
+    width: 63%;
+
+    padding: 5rem 4rem;
+    border-radius: 140px 0px;
+    background: #FFF3FC;
+
+}
+
+.membership {
+    display: flex;
+    background: #E8C2DD;
+    border-radius: 140px 90px 0 0;
+}
+
+
+.membership-form-image-content {
+    width: 100%;
+    position: relative;
+    padding: 4rem 3rem;
+}
+
+.membership-image-illu img {
+    width: 100%;
+}
+
+.view span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #B6539A;
+    border-bottom: 1px dashed #B6539A;
+
+}
+
+.membership-image-illu {
+    position: relative;
+}
+
+.membership-image-illu img {
+    position: absolute;
+    right: -102px;
+    bottom: -131px;
+
+
+}
+
+.view {
+    margin-bottom: 1.1rem;
+}
+
+.view.mt-2 {
+    margin-top: 2rem !important;
+}
+
+.view img {
+    width: 29px;
+}
+
+.download-button {
+    margin-top: 3rem;
+}
+
+.download-button a {
+
+    background: #00529B;
+    border-radius: 15px;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+
+.upload-button {
+    margin-top: 3rem;
+}
+
+.upload-button a {
+    background: #FFF3FC;
+    border: 1px dashed #B6539A;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+    font-weight: 500;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #B6539A;
+}
+
+.membership-form {
+    margin-top: 6rem;
+}
+
+
+
+/* ==================MISSION VISION CSS PAGE ============== */
+
+.mission-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 62px;
+    /* identical to box height, or 303% */
+
+
+    color: #283734;
+}
+
+.mission-pragraph {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47px;
+    padding-right: 6rem;
+    color: #283734;
+    letter-spacing: 2px;
+}
+
+
+.mission-box {
+    background: #FFF4F4;
+    border-radius: 15px;
+    padding: 4rem 3rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.mission-box-ab-icon {
+    position: absolute;
+    top: -49px;
+    left: 48px;
+    width: 100px;
+    height: 100px;
+}
+
+.mission-box-ab-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.dream-box {
+    background: #F2F8FF;
+
+    border-radius: 15px;
+    padding: 4rem 3rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.dream-box-ab-icon {
+    position: absolute;
+    top: -49px;
+    left: 48px;
+    width: 100px;
+    height: 100px;
+}
+
+.dream-box-ab-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.dream-pragraph {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    padding-right: 6rem;
+
+
+    color: #283734;
+}
+
+
+
+
+.dream-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 62px;
+    /* identical to box height, or 303% */
+
+
+    color: #283734;
+}
+
+.dream-suppport {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #283734;
+}
+
+.dream-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 2rem;
+
+}
+
+.dream-card-image {
+    margin-right: 1.5rem;
+}
+
+.dream-card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.dream-card-image-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 1rem;
+
+    text-transform: capitalize;
+
+    color: #283734;
+    text-align: center;
+}
+
+
+.dream-suporrt-line {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #283734;
+    margin-top: 4rem;
+}
+
+
+.dream-support-byline ul {
+    color: #89A7C9;
+    padding: 1rem;
+}
+
+.dream-support-byline ul li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 39px;
+    color: #283734;
+
+}
+
+
+
+
+
+/* =====================OVERVIEW CSS PAGE ============= */
+
+
+
+.overview-card-box {
+    display: flex;
+    margin-top: 4rem;
+}
+
+
+.image-overview img {
+    width: 300px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+
+.overview-content-heading {
+    font-family: 'Manrope';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.overview-content-parag {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #283734;
+    padding-right: 6rem;
+    margin-top: 1rem;
+}
+
+
+.overview-content {
+    background: #F6F9EE;
+    padding: 4rem 3rem;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.overview-content.fullwidth {
+    width: 100%;
+}
+
+.overview-heading-uper {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 97px;
+    /* identical to box height, or 162% */
+
+
+    color: #00529B;
+}
+
+.overview-byline-uper {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 195% */
+
+
+    color: #283734;
+}
+
+
+.overviewbg-1 {
+    background: #F2F8FF;
+
+}
+
+.overviewbg-2 {
+    background: #FFF4F4;
+
+}
+
+
+.map {
+    width: 100%;
+    border-radius: 20px;
+    height: 371px;
+}
+
+.iconbox-flex-map.address {
+    padding: 1rem;
+}
+
+.donate-btn{
+    color: black !important;
+}
+
+.donate-btn:hover{
+    /* color: white !important; */
+    background-color: black;
+}
+
+.footer{
+    background-color: #00A652 !important;
+}
+
+.donate-section{
+    background-color: #283734 !important;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .ourteam-mainbox {
+        flex-direction: column;
+    }
+
+    .our-team-box {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .Box-4 {
+        transform: translateY(0px);
+    }
+
+    .text__about__co {
+        flex-direction: column;
+    }
+
+    .membership {
+        flex-direction: column;
+    }
+
+    .membership-form-text {
+        width: 100%
+    }
+
+    .membership-image-illu img {
+        position: inherit;
+        right: inherit;
+        bottom: inherit;
+        width: 100%;
+    }
+
+    .dream-card {
+        flex-direction: column;
+    }
+
+    .overview-card-box {
+        flex-direction: column;
+    }
+
+    .image-overview img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ourteam-mainbox {
+        flex-direction: column;
+    }
+
+    .our-team-box {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .Box-4 {
+        transform: translateY(0px);
+    }
+
+    .text__about__co {
+        flex-direction: column;
+    }
+
+    .membership {
+        flex-direction: column;
+    }
+
+    .membership-form-text {
+        width: 100%
+    }
+
+    .membership-image-illu img {
+        position: inherit;
+        right: inherit;
+        bottom: inherit;
+        width: 100%;
+    }
+
+    .overview-content-parag {
+        padding-right: 0rem;
+
+    }
+
+    .overview-card-box {
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .ourteam-mainbox {
+        flex-direction: column;
+    }
+
+    .our-team-box {
+        width: auto;
+        margin-top: 1rem;
+        margin-top: 80px;
+    }
+
+    .Box-4 {
+        transform: translateY(0px);
+    }
+
+    .text__about__co {
+        flex-direction: column;
+    }
+
+    .membership {
+        flex-direction: column;
+    }
+
+    .membership-form-text {
+        width: 100%
+    }
+
+    .membership-image-illu img {
+        position: inherit;
+        right: inherit;
+        bottom: inherit;
+        width: 100%;
+    }
+
+    .mission-pragraph {
+        padding-right: 0rem;
+
+    }
+
+    .overview-card-box {
+        flex-direction: column;
+    }
+
+    section.heading__about {
+        padding: 10px;
+    }
+
+    section.heading__about a {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        border-bottom: 1px solid transparent;
+    }
+
+    .overview-heading-uper {
+        font-size: 34px;
+        line-height: 42px;
+        padding-bottom: 15px;
+    }
+
+    .overview-byline-uper {
+        line-height: 30px;
+    }
+
+    .overview-content {
+        padding: 15px;
+    }
+
+    .dream-box {
+        padding: 15px;
+        padding-top: 50px;
+    }
+
+    .dream-heading {
+        font-size: 22px;
+    }
+
+    .mission-pragraph {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .dream-suppport {
+        font-size: 22px;
+    }
+
+    .dream-card-image {
+        margin-bottom: 30px;
+    }
+
+    .dream-card-image-heading {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .dream-suporrt-line {
+        line-height: 26px;
+    }
+
+    .dream-support-byline ul li {
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+
+    .mission-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ourteam-mainbox {
+        margin-top: 0px;
+    }
+
+    .membership-form {
+        margin-top: 0px;
+    }
+
+    .our-team {
+        margin-bottom: 50px;
+    }
+
+    .our-team-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .membership-form-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .text__about__co .co-text {
+        width: 100%;
+    }
+
+    .btn-about.right {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .about__btn__more {
+        padding: 10px 30px;
+    }
+
+}

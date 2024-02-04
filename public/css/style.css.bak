@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --yellow: #F7D02D;
+    --blue: #00529B;
+    --black: #283734;
+
+}
+
+.extra-content-allover p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #283734;
+}
+
+.ric {
+    position: relative;
+    background: var(--yellow);
+    padding: 1.9rem;
+}
+
+.lion__button_second {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00529B;
+
+}
+
+.dropbtn{
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn:hover .dropdown-content {display: block;}
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
+.brand__logo img {
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.request-proposal .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+}
+
+/*------ HEADER CSS---- */
+
+.lion__button {
+    background: var(--yellow);
+    color: #00529B;
+    padding: 1rem;
+    font-family: Manrope;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header__conntent {
+    padding-left: 3.6rem;
+}
+
+.nav__link {
+    color: #283734;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 14px;
+    padding-right: 1.8rem !important;
+    transition: 0.3s linear;
+    border-bottom: 2px solid transparent;
+}
+
+.text-paragraph-in-to p{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.top__banner{
+    background-image: url('../images/home-banner.jpg');
+}
+
+
+
+.nav__link:hover {
+    
+    color: var(--blue);
+}
+
+.navbar-brand h1{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00529B !important;
+    padding-left: 12rem;
+
+}
+
+
+
+
+/*----- BANNER---- */
+.top__banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.brand__logo {
+    position: absolute;
+    top: -73px;
+    left: 45px;
+    width: 155px;
+    height: 248px;
+}
+
+
+.by__line {
+    font-family: Caveat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F7D02D;
+
+}
+
+.header__conntent h1 {
+    font-family: 'Manrope';
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn__more {
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 95px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: var(--yellow);
+    color: var(--blue);
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    text-transform: uppercase;
+
+}
+
+.btn__morett {
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 95px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: white;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    text-transform: uppercase;
+
+}
+
+.conntent__about h1 {
+    font-family: 'Manrope';
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+}
+
+.conntent__about p {
+    font-family: 'Cookie';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--black);
+
+}
+
+.conntent__about .para__graph {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.small___content h1 {
+    font-family: 'Manrope';
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+}
+
+.small___content p {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+/*------------ CARD -------- */
+
+
+.card__body__Diabetes {
+    /* background: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px; */
+}
+
+.card__body__Vision {
+    /* background-color: #FF9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px; */
+}
+
+.card__body__Hunger {
+    /* background-color: #89A7C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px; */
+}
+
+.card__body__Environment {
+    /* background-color: #BECA9D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px; */
+}
+
+.card__body__Childhood {
+    /* background-color: #E8C2DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px; */
+}
+
+
+
+
+
+
+
+.card-- {
+    height: 100%;
+}
+
+.card-- h5 {
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.main__shadow {
+    background: linear-gradient(116.34deg, rgba(0, 0, 0, 0.89) -6.21%, rgba(0, 82, 155, 0.2) 66.29%);
+
+}
+
+.team {
+    background-image: url('../images/footer-comebealion.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 5rem;
+}
+
+.main__shadow_team {
+    background: linear-gradient(to left, #000000 -102.08%, rgba(0, 82, 155, 0.4) 96.29%);
+    font-family: 'Manrope';
+    mix-blend-mode: normal;
+
+
+}
+
+.center__view {
+    text-align: center;
+}
+
+.center__view h1 {
+    font-family: 'Manrope';
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    position: relative;
+}
+
+.center__view p {
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.center__view .btn__more {}
+
+
+
+
+
+.upcoming__event {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/events-one-shape-1\ 1.png');
+}
+
+.upcoming__event_heding h1 {
+    font-family: 'Manrope';
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00529B;
+
+}
+
+.upcoming__event_heding p {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 30px;
+}
+
+.text__event h2 {
+    font-family: 'Manrope';
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: white;
+
+}
+
+.upcoming__event__image {
+    background-color: #00529B;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    border-radius: 100px 0px 0px 0px;
+    height: 100%;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.time .text__time {
+    color: white;
+    padding-left: 1rem;
+}
+
+.time .icon {
+    background: #AFCDFB;
+    border-radius: 50%;
+    padding: 0.1rem 0.5rem;
+
+}
+
+.time .icon i {
+    color: #00529B;
+}
+
+.illu__image {
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.illu__image img {
+    height: 100%;
+}
+
+.background__event {
+    background: #e9ecefb0;
+}
+
+.upcoming__event_heding {
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+.our__partner__text h2 {
+    color: #00529B;
+    font-family: Manrope;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+
+}
+
+.our__partner__text p {
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.logo__partner__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    padding-left: 3rem;
+    height: 36px;
+    width: 100%;
+    padding-right: 2rem;
+    display: none;
+}
+
+.our__partner__text {
+    padding-left: 3rem;
+}
+
+.logo__partner__image img {
+    width: 100%;
+}
+
+.text__event {
+    padding-bottom: 3rem;
+}
+
+.brand__text {
+    color: white;
+}
+
+.footer {
+    background: #00529B;
+    margin-top: 0px!important;
+}
+
+.link__name ul {
+    padding: 0;
+    line-height: 46px;
+    list-style-type: none;
+    color: white;
+}
+
+.link__name ul li a {
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.link__name ul li{
+    margin-bottom: 1rem;
+}
+
+
+
+.our__partner__image {
+    margin-top: 2.2rem;
+    padding-left: 3.1rem;
+    padding-right: 4rem;
+}
+
+.link__name ul li a span {
+    background-color: #AFCDFB;
+}
+
+.footer__logo {
+    width: 112px;
+}
+
+.footer__logo img {
+    width: 100%;
+}
+
+.f__heading {
+    padding-top: 1rem;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.brand__text {
+    color: white;
+    padding-right: 2rem;
+    font-family: 'Manrope';
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.link__name ul li a span {
+    background-color: #AFCDFB;
+    /* padding: 6px 10px; */
+    border-radius: 50%;
+    width: 30px;
+    display: flex;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.respon {
+    display: none;
+    width: 60px;
+}
+
+.lion_btn {
+    display: none;
+    margin-top: 1rem;
+
+}
+
+.small___content {
+    padding-left: 4rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .ric {
+        display: none;
+    }
+
+    .brand__logo {
+        display: none;
+    }
+
+    header {
+        height: 100%;
+    }
+
+    .respon {
+        display: block;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .lion_btn {
+        display: block;
+
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding: 1rem;
+    }
+
+    .small___content {
+        padding-left: 0rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .brand__logo {
+        display: none;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .respon {
+        display: block;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .ric {
+        display: none;
+    }
+
+    .header__conntent {
+        padding-left: 0rem;
+    }
+
+    .team {
+
+        background-size: cover;
+    }
+
+    section.our__partner {
+        margin: 0 !important;
+    }
+
+    .logo__partner__image {
+        height: 100%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .brand__logo {
+        display: none;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .respon {
+        display: block;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .ric {
+        display: none;
+    }
+}
+
+
+.linecopyrigth {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid white;
+    color: white;
+}
+
+/* .hover_c:hover {
+    animation: flipCard 1s ease-in-out;
+} */
+
+
+@keyframes flipCard {
+
+    /* Define the keyframes for the animation */
+    0% {
+        transform: rotateY(0deg);
+        /* Starting position */
+    }
+
+    100% {
+        transform: rotateY(180deg);
+        /* Ending position */
+    }
+}
+
+
+
+
+
+.btn__more {
+    transition: all 0.3s linear;
+}
+
+.btn__more:hover {
+    box-shadow: 0 0 0 0 var(--yellow), inset 6em 3.5em 0 0 var(--blue);
+    color: var(--yellow);
+}
+
+
+
+
+
+.form-group {
+    padding: 1rem 4rem;
+}
+
+section.form {
+    background: #F2F8FF;
+    position: relative;
+}
+
+.text-form-contact {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    color: #00529B;
+
+}
+
+
+.text-form-contact span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #283734;
+
+}
+
+.contact-us-map-menu{
+    padding: 3rem 2rem;
+    background: #00529B;
+    height: 100%;
+
+}
+
+.logo-tobrand {
+    width: 179px;
+    height: 120px;
+}
+
+
+
+.one-box-flex-map {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+}
+.one-box-flex-map.schedule {
+    background: #AFCDFB; border-radius: 115px;
+}
+
+.iconbox-flex-map {
+    background-color: #AFCDFB;
+    /* padding: 0.5rem 0.8rem; */
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconbox-flex-map img {
+    width: 20px;
+}
+.iconbox-flex-map.schedule{
+    background: #00529B;
+}
+
+.text-box-flex-map{
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.text-box-flex-map.schedule{
+    color:#00529B;
+}
+
+.two-box-flex-map {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.flex-map-t {
+    width: 100%;
+}
+
+
+.link__name ul li a i {
+    color: #00529B;
+
+
+   
+}
+
+.form-control.contact {
+    background-color: transparent;
+    padding: 0.7rem 0.75rem;
+}
+
+.heading2 {
+    font-family: 'Manrope';
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 97px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blue);
+}
+.text-paragraph-in-to p.italicpara{
+    font-family: 'Cookie';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--black);
+}

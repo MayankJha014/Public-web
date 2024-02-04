@@ -1,0 +1,521 @@
+.event-icon-dflex {
+    display: flex;
+    align-items: center;
+}
+
+.icon-event-overview i {
+    background: #BECA9D;
+    padding: 8px 9px;
+    border-radius: 50%;
+    color: #F6F9EE;
+    margin-right: 1rem;
+    font-size: 11px;
+}
+
+.event-box-one {
+    display: flex;
+}
+
+/* .event-box-button {
+    width: 100%;
+} */
+
+.eventbox-content {
+    width: 75%;
+}
+
+.icon-event-overview {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.event-host-include {
+    background: #F5F5F5;
+    position: relative;
+    padding: 5rem 3rem;
+    border-radius: 15px;
+    margin-top: 6rem;
+}
+
+.event-heading-host {
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.event-content {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.event-image-host {
+    width: 100px;
+    position: absolute;
+    top: -46px;
+}
+
+.event-by-line {
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.event-image-host img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.event-content-photo-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.event-photo-gallery-image img {
+    width: 100%;
+    height: 400px;
+}
+
+a.event-btn01 {
+    background: #FFF4F4;
+    border-radius: 140px;
+    color: #F56D6D;
+  
+}
+.equlee-tools {
+    padding: 0 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+    height: 100%;
+}
+
+a.event-btn02 {
+    color: #8FA15D;
+    border-radius: 140px;
+    background: #F6F9EE;
+
+    padding: 0.7rem 2rem;
+}
+
+a.event-btn03 {
+    color: #5B85B7;
+    border-radius: 140px;
+    background: #F2F8FF;
+    padding: 0.7rem 2rem;
+}
+
+a.event-btn04 {
+    background: #FFF8DB;
+    border-radius: 140px;
+    color: #CFA803;
+    padding: 0.7rem 2rem;
+}
+
+
+
+
+
+.photo-gallery-event-text {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #283734;
+}
+
+.photo-gallery-event-text span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6F7775;
+}
+
+
+
+
+.photo-gallery-event-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 97px;
+    color: #00529B;
+}
+
+.photo-gallery-event-by-line {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 195% */
+
+
+    color: #283734;
+}
+
+
+
+
+
+section.event-photo-gallery-sec {
+    margin-top: 3rem;
+}
+
+.txt-photo-event-gallery {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    color: #283734;
+
+}
+
+.con-event {
+    color: #00529B;
+}
+
+
+
+
+
+
+/*============ EVENT-COME-BE-A-LION CSS ========= */
+.event-come-a-box-main {
+    display: flex;
+    align-items: center;
+}
+
+
+.event-come-a-box-icon {
+    width: 50px;
+}
+
+.event-come-a-box-icon img {
+    width: 100%;
+}
+
+
+.event-come-a-box-text {
+    margin-left: 1rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #283734;
+}
+
+
+
+.event-come-be-a-box {
+    padding: 2rem 4rem;
+    background: #F5F5F5;
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+.event-come-be-a-loin-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 97px;
+    color: #00529B;
+}
+
+
+
+.event-come-be-a-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #283734;
+    padding-top: 10px;
+}
+
+.event-next-line {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #283734;
+}
+
+
+
+
+
+/*======================== RESOURCES CSS=================== */
+
+
+
+.card-box-format {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.card-type-box {
+    margin-left: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+}
+
+.resources-card-box-content {
+
+    padding: 1rem 2rem;
+
+}
+
+.card-box-type-image img {
+    width: 100%;
+}
+
+.resourecs-box-card-subheading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 140% */
+
+    text-transform: capitalize;
+
+    color: #283734;
+}
+
+.resources-box-card-byline {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    color: #6F7775;
+}
+
+.ressources-by-line-tem-line {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: #6F7775;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #E5E5E5;
+}
+
+.ressources-by-line-tem-line.ninty {
+    transform: translateY(90px);
+}
+
+.resource-heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #00529B;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+}
+
+
+.resource-heading-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #283734;
+    line-height: 30px;
+    margin-left: 1.5rem;
+}
+
+.tablist {
+    margin-top: 3rem;
+}
+
+.tablist ul {
+    list-style: none;
+}
+
+.tablist ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 2rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #6F7775;
+}
+
+.tablist ul li.featured {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #00529B;
+    border-bottom: 2px solid currentColor;
+}
+
+
+
+
+
+
+/*================== GLOBAL SPONSORS CSS ===== */
+
+
+
+.headline-for-sponros {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #283734;
+}
+
+.global-sponsors-take {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #283734;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .event-box-one {
+        flex-direction: column;
+    }
+
+    .card-box-format {
+        flex-direction: column;
+
+    }
+
+    .card-type-box {
+        margin-left: 0;
+        margin-top: 4rem;
+    }
+
+    .ressources-by-line-tem-line {
+        transform: translateY(10px) !important;
+    }
+
+    .ressources-by-line-tem-line.ninty {
+        transform: translateY(90px);
+    }
+
+    .resource-heading {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        color: #00529B;
+    }
+
+
+    .event-heading-host {
+        font-size: 22px;
+        line-height: 32px;
+        padding-bottom: 20px;
+    }
+
+    .event-content {
+        line-height: 32px;
+    }
+
+    .event-host-include {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .photo-gallery-event-heading {
+        font-size: 34px;
+        line-height: 42px;
+        padding-bottom: 20px;
+    }
+
+    .photo-gallery-event-by-line {
+        font-size: 16px;
+    }
+
+    .event-come-be-a-loin-heading {
+        font-size: 34px;
+        line-height: 42px;
+        padding-bottom: 20px;
+    }
+
+    .headline-for-sponros {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .event-come-be-a-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .event-come-a-box-main {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .event-come-a-box-text {
+        margin-left: 0;
+    }
+}
